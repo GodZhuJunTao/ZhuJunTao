@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/reg.css"/>
+	</head>
+	<body>
+		<!--head-->
+		<div id="head" class="Con">
+			<div class="logo">
+		        <a title="华润集团健一网网上药店" target="_blank" href="https://www.j1.com" class="logoj1">
+		        	<img width="200" height="39" alt="健一网网上药店" src="https://passport.j1.com/images/j1lg.png">
+		        </a>
+		        <h2>会员注册</h2>
+		        <p>
+		          	  注册成功即可获得
+		          	 <span class="fc4">100</span>积分+<span class="fc4">会员特权</span>！
+		        </p>
+		    </div>
+		</div>
+		<!--con-->
+		<div id="registermain" class="Con">
+			<div class="reg_left">
+                <dl class="item">
+                    <dt>
+                        <span class="xing">*</span>手机号
+                    </dt>
+                    <dd>
+                        <input type="text" placeholder="请输入11位的手机号" class="bk-default jssjh" name="mobile" id="mobile">
+                        <div class="_register_error_inf">
+                        	
+                        </div>
+                        <!-- 正确打钩  correct-->
+                        <div class="_register_correct_inf"></div>
+                    </dd>
+                </dl>
+                <dl class="item">
+                    <dt>
+                        <span class="xing">*</span>设置密码
+                    </dt>
+                    <dd>
+                        <input type="password" placeholder="长度为6-16必须包含大小写字母和数字的组合" class="bk-default jsszmm">
+                        <div class="_register_error_inf">
+                        	
+                        </div>
+                        <!-- 正确打钩 -->
+                        <div class="_register_correct_inf"></div>
+                    </dd>
+                </dl>
+                <dl class="item">
+                    <dt>
+                        <span class="xing">*</span>确认密码
+                    </dt>
+                    <dd>
+                        <input type="password" placeholder="再次输入密码" class="bk-default jsqrmm">
+
+                        <div class="_register_error_inf">
+                        	
+                        </div>
+                        <div class="_register_correct_inf"></div>
+                    </dd>
+                </dl>
+                <dl class="item">
+                    <dt>
+                        <span class="xing">*</span>验证码
+                    </dt>
+                    <dd>
+                        <input type="text" class="bk-default kd80 code_val" value="" style="width: 80px;">
+						<div id="picCode" style="position: absolute;top:-2px;left:100px;">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+                        <div class="_register_error_inf">
+                        	
+                        </div>
+                        <div class="_register_correct_inf" style="left: 58px;"></div>
+                    </dd>
+                </dl>
+                <div class="ljzc yhxy">
+                    <input type="checkbox" value="1" class="checkbox" checked="checked" id="readme" name="readme">
+                    <label for="protocol">
+                        	我已阅读并同意
+                        <a target="_blank" href="https://www.j1.com/yonghuxieyi-pc.html" id="protocol">
+                            	《用户协议》
+                        </a>
+                    </label>
+                    <div class=" _register_error_inf" style="height: 22px;">
+                    	
+                    </div>
+                </div>
+                <div class="ljzc">
+                    <input type="submit" style="cursor:pointer;" class="btn-ljzc" value="立即注册">
+                </div>
+            </div>
+			<div class="reg_right">
+	            <h4 class="fs14">已有健一账号？</h4>
+	            <a class="btn-ksdl" target="_blank">快速登录</a>
+	            <h4>使用合作账号登录健一网</h4>
+	            <ul class="hzzh">
+	                <li class="hz-01"><a href="javascript:void(0);" onclick="openAlipayLoginWindow();">支付宝</a></li>
+	                <li class="hz-02"><a href="javascript:void(0);" onclick="openQQLoginWindow();">QQ</a></li>
+	                <li class="hz-03"><a href="javascript:void(0);" onclick="openVincceWindow('Y')">平安健康商圈 健康卡</a></li>
+	            </ul>
+	            <ul>
+	                <li>
+	                    <a href="javascript:void(0);" style="width: 100px;height: 20px;position: relative;display:block;font-size: 12px;color: #676767;">
+	                        <img src="https://passport.j1.com/images/hrtLogin2.png" style="width:25px;margin-top: 0px;margin-left: -5px;">
+	                        <span style="position: absolute;right: 46px;top:6px;font-size: smaller;">华润通</span>
+	                    </a>
+	                </li>
+	            </ul>
+			</div>
+		</div>
+		<!--foot-->
+		<div id="foot" class="Con sec-footer">
+		    <div class="zhengshu">
+		        <a rel="nofollow" target="_blank" href="javascript:void(0);" onclick="go2J1help();">互联网药品交易服务资格证书</a>&nbsp;&nbsp;<a rel="nofollow" target="_blank" href="javascript:void(0);" onclick="go2J1help();">药品经营许可证</a>&nbsp;&nbsp;<a rel="nofollow" target="_blank" href="javascript:void(0);" onclick="go2J1help();">互联网药品信息服务资格证书</a>&nbsp;&nbsp;<a rel="nofollow" target="_blank" href="javascript:void(0);" onclick="go2J1help();">食品流通许可证</a>&nbsp;&nbsp;<a rel="nofollow" target="_blank" href="javascript:void(0);" onclick="go2J1help();">医疗器械经营企业许可证</a>&nbsp;&nbsp;<a rel="nofollow" target="_blank" href="javascript:void(0);" onclick="go2J1help();">药品经营质量管理规范认证证书（新）</a><br>
+		        <a rel="nofollow" target="_blank" href="javascript:void(0);" onclick="go2J1help();">互联网医疗保健信息服务审核同意书</a>&nbsp;&nbsp;<a rel="nofollow" target="_blank" href="javascript:void(0);" onclick="go2J1help();">信用资质等级评定</a>&nbsp;&nbsp;<a rel="nofollow" target="_blank" href="javascript:void(0);" onclick="go2J1help();">信用资质等级证书</a>&nbsp;&nbsp;<a rel="nofollow" target="_blank" href="javascript:void(0);" onclick="go2J1help();">企业法人营业执照</a>&nbsp;&nbsp;<a rel="nofollow" target="_blank" href="javascript:void(0);" onclick="go2J1help();">税务登记证</a>
+		    </div> 
+		    
+		    <div style="color:#676767; font-size: 12px;">Copyright © j1.com All rights reserved 沪ICP备09007253号
+		        上海健一网大药房连锁经营有限公司
+		    </div>
+		</div>
+	</body>
+	<script src="../js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/Common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/reg.js" type="text/javascript" charset="utf-8"></script>
+</html>

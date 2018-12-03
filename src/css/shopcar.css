@@ -1,0 +1,294 @@
+.Con {
+  width: 1000px;
+  margin: 0 auto; }
+
+#head {
+  height: 30px; }
+  #head ul {
+    height: 30px; }
+    #head ul li {
+      font-size: 12px;
+      height: 30px;
+      line-height: 30px;
+      color: #67677A;
+      float: left; }
+      #head ul li a {
+        padding: 0 5px;
+        font-size: 12px;
+        color: #67677A; }
+        #head ul li a:hover {
+          text-decoration: underline; }
+  #head .head_right {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px; }
+    #head .head_right > a {
+      color: #333; }
+    #head .head_right > span {
+      color: #333; }
+      #head .head_right > span strong {
+        color: #c40000;
+        font: 700 12px "arial"; }
+
+#shopcart-container {
+  padding: 20px 0px;
+  line-height: 20px; }
+
+#content {
+  position: relative; }
+
+.logo {
+  width: 200px;
+  height: 55px;
+  float: left;
+  margin: 10px 10px 0px 0px; }
+
+.step2 {
+  float: right;
+  margin-top: 33px;
+  width: 540px; }
+  .step2 > li {
+    text-align: right;
+    font-size: 16px;
+    color: #999; }
+    .step2 > li .fc4 {
+      color: #c40000; }
+
+.order-wrap {
+  width: 1000px;
+  margin: 0 auto 15px;
+  font-size: 14px; }
+  .order-wrap .wdshop {
+    font-size: 18px;
+    line-height: 26px; }
+  .order-wrap .o-top {
+    color: #6d6d6d;
+    height: 28px;
+    margin-top: 10px; }
+    .order-wrap .o-top .jyico1 {
+      font-size: 18px;
+      height: 22px;
+      padding-left: 30px;
+      background: url(../img/jyqf_ico1.png) 0 0 no-repeat; }
+    .order-wrap .o-top div:nth-child(2) {
+      margin-top: 5px;
+      color: #333; }
+
+#shopcart-con {
+  border: 2px solid #eaeaea; }
+
+.shopcart-list {
+  margin: 10px; }
+  .shopcart-list .bgcolxz {
+    background: #fff4e8; }
+  .shopcart-list a:hover {
+    text-decoration: underline;
+    color: #c40000; }
+  .shopcart-list table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+  .shopcart-list th {
+    text-align: center;
+    font-weight: 700;
+    background: #f6f6f6;
+    border-bottom: 1px solid #e2e2e2;
+    font-size: 12px;
+    line-height: 30px; }
+  .shopcart-list td {
+    padding: 10px 5px;
+    text-align: center;
+    border-bottom: 1px solid #e2e2e2;
+    font-size: 12px;
+    line-height: 20px; }
+  .shopcart-list td.shopcart_yhwrap {
+    border-bottom: none; }
+
+.yhnews {
+  border: 1px solid #e0e0e0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom-color: #f1f1f1;
+  padding: 4px 10px;
+  text-align: left;
+  margin-top: 10px; }
+  .yhnews > span {
+    background: url(../img/mj_2.png) no-repeat center top;
+    color: #fff;
+    line-height: 19px;
+    height: 26px;
+    text-align: center;
+    width: 46px;
+    display: inline-block; }
+
+.process-01 {
+  MARGIN: 0 5px;
+  FLOAT: left;
+  OVERFLOW: hidden;
+  width: 88px;
+  height: 88px;
+  border: #F0F0F0 1px solid; }
+
+.process-02 {
+  TEXT-ALIGN: left;
+  WIDTH: 200px;
+  FLOAT: left;
+  MARGIN-LEFT: 5px; }
+  .process-02 a {
+    color: #333; }
+
+.shopcart-tuijian-price02 {
+  color: #c40000;
+  font: 400 12px "arial";
+  font-size: 14px; }
+
+.process-num {
+  MARGIN-TOP: 10px;
+  WIDTH: 80px;
+  FLOAT: left;
+  HEIGHT: 22px;
+  padding-left: 5px; }
+
+.process-num_01 {
+  WIDTH: 21px;
+  FLOAT: left;
+  CURSOR: pointer; }
+
+.process-num_02 {
+  BORDER-BOTTOM: #6d6d6d 1px solid;
+  BORDER-LEFT: #6d6d6d 1px solid;
+  FLOAT: left;
+  HEIGHT: 20px;
+  BORDER-TOP: #6d6d6d 1px solid;
+  BORDER-RIGHT: #6d6d6d 1px solid;
+  text-align: center;
+  font: 12px/1 Tahoma,"\5b8b\4f53",Arial,Helvetica,sans-serif; }
+
+.shopcart-btn {
+  border: 1px solid #CCC;
+  width: 15px;
+  height: 20px;
+  line-height: 18px;
+  margin: 0 2px 0px 2px;
+  cursor: pointer;
+  background: #f6f6f6;
+  display: block;
+  color: #333; }
+
+a {
+  color: #333; }
+
+.settlement {
+  margin: 10px auto 30px;
+  height: 47px;
+  border: 1px solid #e2e2e2;
+  font-size: 13px; }
+  .settlement .choice {
+    width: 235px;
+    float: left;
+    padding: 0px 10px 0;
+    line-height: 47px; }
+    .settlement .choice a:hover {
+      color: #c40000; }
+    .settlement .choice input {
+      margin-top: -1px; }
+    .settlement .choice .plr5 {
+      padding: 0 20px 0 5px; }
+    .settlement .choice .fc9 {
+      color: #999;
+      padding-left: 15px; }
+  .settlement .fr .lh47 {
+    font-size: 14px;
+    line-height: 47px; }
+    .settlement .fr .lh47 i {
+      padding: 0 5px;
+      color: #C40000; }
+    .settlement .fr .lh47 strong {
+      font-size: 18px;
+      color: #C40000; }
+    .settlement .fr .lh47 .pr20 {
+      padding-right: 20px; }
+  .settlement .fr li {
+    float: left; }
+  .settlement .btn-set {
+    width: 126px;
+    height: 45px;
+    background: #c40000;
+    border: none;
+    text-align: center;
+    line-height: 45px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer; }
+
+#shopcart-tuijian-title {
+  width: 121px;
+  height: 30px;
+  padding-left: 10px;
+  color: #333;
+  border: 1px solid #e2e2e2;
+  border-bottom: none;
+  font: 700 16px/30px "\5FAE\8F6F\96C5\9ED1"; }
+
+.shopcart_list_wrap {
+  border: 1px solid #e2e2e2;
+  overflow: hidden; }
+
+#shopcart-tuijian .but_go {
+  border: 1px solid #ddd;
+  width: 80px;
+  height: 20px;
+  padding: 0 10px;
+  line-height: 20px;
+  font: 400 11px "arial";
+  font-size: 11px;
+  cursor: pointer; }
+#shopcart-tuijian ul {
+  width: 1200px;
+  padding: 20px 0 0 0; }
+#shopcart-tuijian li {
+  width: 240px;
+  height: 70px;
+  margin: 0 0 20px 8px;
+  float: left; }
+  #shopcart-tuijian li a {
+    display: block; }
+    #shopcart-tuijian li a img {
+      border: 1px solid #f1f1f1; }
+#shopcart-tuijian cite {
+  width: 163px;
+  float: left;
+  line-height: 22px;
+  padding-left: 5px; }
+  #shopcart-tuijian cite a.name {
+    display: block;
+    width: 168px;
+    height: 22px;
+    overflow: hidden;
+    line-height: 22px;
+    color: #333;
+    font: 400 12px "arial";
+    font-size: 14px; }
+  #shopcart-tuijian cite a:hover {
+    text-decoration: underline;
+    color: #c40000; }
+#shopcart-tuijian a:hover {
+  text-decoration: underline;
+  color: #c40000; }
+
+.shopcart-tuijian-price02 {
+  color: #c40000;
+  font: 400 12px "arial";
+  font-size: 14px; }
+
+#foot {
+  width: 100%;
+  border-top: #e2e2e2 3px solid;
+  margin-top: 30px; }
+  #foot a {
+    font-size: 12px;
+    color: #333; }
+    #foot a:hover {
+      text-decoration: underline;
+      color: #C40000; }
+
+/*# sourceMappingURL=shopcar.css.map */

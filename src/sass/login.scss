@@ -1,0 +1,162 @@
+.Con{
+    width: 1000px;
+    margin: 0 auto;
+}
+body{
+    background: #f8f8f8;
+}
+//logo
+#logo{
+    height: 83px;
+    padding: 24px 0 18px 0;
+}
+//center
+#center{
+    border: 5px solid #f0f0f0;
+    background: #fff;
+    height: 460px;
+    margin-bottom: 70px;
+}
+.c_left{
+    width: 610px;
+    height: 375px;
+    float: left;
+    padding: 65px 0 0 80px;
+}
+.gdx-1{
+    margin-top:24px;
+    height: 25px;
+    line-height: 25px;
+    a{
+        color: #c40000;
+        margin-right: 8px;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+.item{
+    padding-top: 7px;
+    position: relative;
+    height: 52px;
+    line-height: 34px;
+    .item-sj{
+        position: relative;
+    }
+    .text{
+        font-family: arial,"宋体";
+        font-size: 14px;
+        height: 38px;
+        padding: 10px 25px 10px 35px;
+        width: 307px;
+        background: url(../img/zc-ico.png) no-repeat 7px -72px;
+    }
+    .bian-01{
+        border: 1px solid #e2e2e2;
+    }
+    .bian-02{
+        border: 1px solid #c40000;
+    }
+    .text-mm{
+        background-position: 10px -110px;
+    }
+    .focus{
+        position: absolute;
+        left: 0px;
+        top: 38px;
+        width: 272px;
+        padding-left: 20px;
+        height: 20px;
+        line-height: 22px;
+        font-size: 12px;
+        background:url(../img/miniloginbg.png)no-repeat -82px -77px;
+        color: #c40000;
+    }
+}
+.jzzh{
+    margin-top: 5px;
+    .mar{
+        margin: 0 5px 0 3px;
+    }
+    a{
+        color: #676767;
+        &:hover{
+            color:#C40000;
+            text-decoration: underline;
+        }
+    }
+}
+.item-xy{
+    padding-top: 0;
+    height: 45px;
+    margin-bottom: 20px;
+    .zc-ljzc{
+        width: 310px;
+        height: 42px;
+        font-size: 18px;
+        color: #fff;
+        text-align: center;
+        background: #c40000;
+        border: none;
+        font: 400 18px/42px "\5FAE\8F6F\96C5\9ED1";
+        cursor: pointer;
+        border-radius: 2px;
+        &:hover{
+            background: #d70000;
+        }
+    }
+}
+.c_right{
+    position: relative;
+    width: 374px;
+    height: 440px;
+    float: left;
+    padding: 40px 64px 0 0;
+    font-size: 14px;
+}
+.hzwz{
+    p{
+        color: #888;
+        line-height: 30px;
+        border-bottom: 1px solid #e5e5e5;
+        margin-bottom: 15px;
+        font-size: 12px
+    }
+    .hzico{
+        display: inline-block;
+        float: left;
+        background: url(../img/zc-ico.png) 0 2px no-repeat;
+        height: 20px;
+        line-height: 20px;
+        padding-left: 20px;
+        margin: 0 10px 0 0;
+        color:#A5A5A5;
+    }
+    .ico-01{
+        border-right: 1px solid #cfcfcf;
+        width: 60px;
+    }
+    .ico-02{
+        background-position: 0 -22px;
+        border-right: 1px solid #cfcfcf;
+        width: 81px;
+    }
+    .ico-03{
+        background-position: 0 -44px;
+        width: 100px;
+    }
+}
+//foot
+.sec-footer{
+    text-align: center;
+    line-height: 24px;
+    a{
+        font-size: 12px;
+        line-height: 22px;
+        color: #676767;
+        &:hover{
+            color: #C40000;
+            text-decoration: underline;
+        }
+    }
+}
